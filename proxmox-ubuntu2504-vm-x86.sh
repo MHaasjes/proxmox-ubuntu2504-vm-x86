@@ -1,5 +1,5 @@
 #!/bin/bash
-export vm_id=202 vm_name="Ubuntu" username=ubuntu password="ChangeMe!" storage=local-lvm ram=4096 cpu=2 disk_size=16G && \
+export vm_id=202 vm_name="Ubuntu" storage=local-lvm ram=4096 cpu=2 disk_size=16G && \
 wget "https://cloud-images.ubuntu.com/plucky/current/plucky-server-cloudimg-amd64.img" -O ubuntu-25.04.qcow2 && \
 qm create $vm_id --name $vm_name --ostype l26 && \
 qm set $vm_id \
