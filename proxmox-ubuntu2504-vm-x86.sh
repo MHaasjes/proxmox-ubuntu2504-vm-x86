@@ -15,7 +15,5 @@ qm set $vm_id \
   --agent enabled=1,fstrim_cloned_disks=1 \
   --ide2 ${storage}:cloudinit \
   --ipconfig0 "ip6=auto,ip=dhcp" \
-  --cipassword ${password} \
-  --ciuser ${username} && \
 qm disk resize $vm_id scsi0 $disk_size && \
 rm ubuntu-25.04.qcow2
