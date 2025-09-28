@@ -8,5 +8,5 @@ How to install
 
 To create a new Proxmox VE Ubuntu 25.04 VM, run the command below in the Proxmox VE Shell.
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/xxxxxxx.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/MHaasjes/proxmox-ubuntu2504-vm-x86/refs/heads/main/proxmox-ubuntu2504-vm-x86.sh)"
 ```
